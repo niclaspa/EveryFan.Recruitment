@@ -41,6 +41,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="PayingPosition.cs" />
+    <Compile Include="PayoutCalculatorFactory.cs" />
+    <Compile Include="PayoutCalculators\PayoutCalculator.cs" />
     <Compile Include="PayoutEngine.cs" />
     <Compile Include="PayoutCalculators\FiftyFiftyPayoutCalculator.cs" />
     <Compile Include="PayoutCalculators\IPayoutCalculator.cs" />
